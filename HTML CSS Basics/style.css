@@ -1,0 +1,71 @@
+/* Descendant selector */
+
+
+
+/* Child selector */
+div > p{
+    color: red;
+
+}
+
+/* Adjacent sibling selector */
+p+h1{
+    background-color: blue;
+}
+
+/* Pseudo class */
+
+.btn{
+    background-color: red;
+    font-size: 18px;
+    color: white;
+border: none;
+border-radius: 5px;
+padding: 10px;
+
+}
+.btn:hover{
+    background-color: green;
+    color: black;
+    
+}  
+
+.btn:active
+git config --global user.email "akhilkj.77@gmail.com"
+git config --global user.name "Akhil"
+
+.item:link{
+    color: red;
+}
+
+.item:visited{
+    color: aqua;
+
+}
+.item:hover{
+    color: black;
+}
+.item:active{
+    color: blueviolet;
+}
+
+/* Pseudo elements */
+
+.task::before{
+    content: url(./images/decemb);
+
+
+}
+
+.para::first-letter{
+    background: red;
+    
+}
+
+::marker{
+    color: palegreen;
+}
+
+
+/* Attribute selector */
+
